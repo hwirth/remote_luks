@@ -78,7 +78,7 @@ working_dir="/home/$USER/remote_luks"
 # How I will connect to the server with sshfs
 # Example: Login using alternate port number:
 #	remote_directory="-p 12345 user@server:/home/username/remote_luks_images/"
-remote_directory="user@server:/home/username/remote_luks/"
+remote_directory="USER@SERVER:/home/USER/remote_luks/"
 
 # Which file to use to lock/unlock the LUKS container
 # ENABLE, if you want to use your own existing key file
